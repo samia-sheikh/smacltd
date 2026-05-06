@@ -1,0 +1,47 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+
+.swiper {
+  /* margin: 100px auto; */
+  width: 100%;
+  max-width: 684px;
+  /* height: 240px; */
+}
+@media(max-width:992px){
+  .swiper{
+   margin-top: 30px;
+  }
+}
+
+@media(max-width:767px){
+  .swiper{
+    width: 100%;
+    max-width: 584px;
+  }
+}
+@media(max-width:610px){
+  .swiper{
+    width: 100%;
+    max-width: 450px;
+  }
+}
+@media(max-width:480px){
+  .swiper{
+    width: 100%;
+    max-width: 360px;
+  }
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}

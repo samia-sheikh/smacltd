@@ -1,0 +1,3 @@
+.storiesSlider::-webkit-scrollbar {
+  display: none;
+}
